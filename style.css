@@ -1,0 +1,43 @@
+body{
+    margin: auto;
+    /* border: 2px solid red; */
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+#btn:hover{
+    color: darkgrey;
+    background-color: rgb(195, 236, 46);
+    transition: 500ms;
+
+}
+#btn{
+    font-weight: 800;
+    font-size: larger;
+    width: 8%;
+    height: 5vh;
+}
+#review{
+    box-shadow: 12px 5px 50px 1px grey;
+    margin: 1%;
+    /* border: 4px solid; */
+    border-radius: 20px;
+    font-size: large;
+    font-weight: 600;
+    width: 40%;
+    height: 20vh;
+}
+#reviews{
+    color: aliceblue;
+    border: 2px solid white;
+    height: fit-content;
+    max-width: 50vw;
+}
+#heading {
+    color: aliceblue;
+
+}
+
