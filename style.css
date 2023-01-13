@@ -17,8 +17,9 @@ body{
 #btn{
     font-weight: 800;
     font-size: larger;
-    width: 8%;
-    height: 5vh;
+    /* width: 8%;
+    height: 5vh; */
+    border-radius: 10px;
 }
 #review{
     box-shadow: 12px 5px 50px 1px grey;
@@ -39,5 +40,8 @@ body{
 #heading {
     color: aliceblue;
 
+}
+#comment-box{
+    color: whitesmoke;
 }
 
